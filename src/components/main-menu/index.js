@@ -4,8 +4,12 @@ import './index.css';
 
 const MainMenu = () => (
   <div>
-    <div><Link to='/battle'>Play</Link></div>
-    <div><Link to='/editor'>Deck Editor</Link></div>
+    <h1>STAR WARS: Generals</h1>
+    <h3>A Star Wars card game</h3>
+    <div className='links'>
+      <div className='link-container'><Link to='/battle' className='link'>Play</Link></div>
+      <div className='link-container'><Link to='/editor' className='link'>Deck Editor</Link></div>
+    </div>
   </div>
 );
 
