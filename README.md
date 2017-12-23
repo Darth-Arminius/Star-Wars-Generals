@@ -7,7 +7,7 @@ A Star Wars Card Game Project
 npm install
 ```
 
-### Running the application
+## Running the application
 
 ```sh
 npm start
