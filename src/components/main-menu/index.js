@@ -1,12 +1,12 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
 
-export default class MainMenu extends React.PureComponent {
-  render() {
-    return (
-      <div>
-        Main Menu
-      </div>
-    )
-  }
-}
+const MainMenu = () => (
+  <div>
+    <div><Link to='/battle'>Play</Link></div>
+    <div><Link to='/editor'>Deck Editor</Link></div>
+  </div>
+);
+
+export default MainMenu;
