@@ -2,7 +2,23 @@
   border: solid black;
 }
 
-.flex-row {
+.battle-view-flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.battlefield {
+  flex: 3 1 auto;
+}
+
+.deck {
+  flex: 1 1 auto;
+}
+
+.resource {
+  flex: 3 1 auto;
+}
+
+.grave {
+  flex: 1 1 auto;
 }

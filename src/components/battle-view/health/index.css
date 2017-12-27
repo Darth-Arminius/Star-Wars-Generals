@@ -1,9 +1,4 @@
-.border {
-  border: solid black;
-  text-align: center;
-}
-
-.flex-row {
+.health-flex-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;

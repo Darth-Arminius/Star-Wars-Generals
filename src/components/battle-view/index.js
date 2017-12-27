@@ -11,11 +11,11 @@ export default class BattleView extends React.PureComponent {
     return (
       <div className='border'>
         <Health/>
-        <div className='flex-row'>
+        <div className='battle-view-flex-row'>
           <Battlefield/>
           <Deck/>
         </div>
-        <div className='flex-row'>
+        <div className='battle-view-flex-row'>
           <Resource/>
           <Grave/>
         </div>

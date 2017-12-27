@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.css';
 
 const Grave = () => (
-  <div>
+  <div className='border deck'>
     Grave
   </div>
 );
