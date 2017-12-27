@@ -9,12 +9,16 @@ import './index.css';
 export default class BattleView extends React.PureComponent {
   render() {
     return (
-      <div>
-        <Battlefield/>
-        <Deck/>
-        <Grave/>
+      <div className='border'>
         <Health/>
-        <Resource/>
+        <div className='flex-row'>
+          <Battlefield/>
+          <Deck/>
+        </div>
+        <div className='flex-row'>
+          <Resource/>
+          <Grave/>
+        </div>
       </div>
     )
   }

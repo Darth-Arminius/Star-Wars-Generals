@@ -1,0 +1,8 @@
+.border {
+  border: solid black;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
