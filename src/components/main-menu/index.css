@@ -1,15 +1,21 @@
+.logo {
+  margin: 8pt 8pt 8pt 8pt;
+  max-width: 184pt;
+}
+
 .links {
   margin: 8pt 8pt 8pt 8pt;
   border: 2px solid black;
 }
 
 .link-container {
-  margin: 24pt 0pt 24pt 0pt;
+  background: black;
+  padding: 16pt 8pt 16pt 8pt;
+  margin: 16pt 16pt 16pt 16pt;
 }
 
 .link {
-  padding: 8pt 24pt 8pt 24pt;
   color: white;
-  background: black;
   text-decoration: none;
+  font-size: 16pt;
 }
