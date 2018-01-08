@@ -20,7 +20,7 @@ yarn start
 Details on how to play and the rules of the game will be added at a later date.
 
 Development plans are to create:
-* Main menu with "Training", "Play", "Deck Editor" and "Settings"
+* Main menu with "Play", "Training", "Deck Editor" and "Settings"
 
 * Training mode which allows the player to battle the Computer using all the cards in the game or the player's personal custom decks (good for testing deck builds)
 
