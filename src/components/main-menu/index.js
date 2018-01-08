@@ -1,14 +1,18 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 import './index.css';
 
 const MainMenu = () => (
   <div>
+    <img src={logo} className='logo' alt='logo'/>
     <h1>STAR WARS: Generals</h1>
     <h3>A Star Wars card game</h3>
     <div className='links'>
-      <div className='link-container'><Link to='/battle' className='link'>Play</Link></div>
-      <div className='link-container'><Link to='/editor' className='link'>Deck Editor</Link></div>
+      <Link to='/battle' className='link'><div className='link-container'>Play</div></Link>
+      <Link to='/training' className='link'><div className='link-container'>Training</div></Link>
+      <Link to='/editor' className='link'><div className='link-container'>Deck Editor</div></Link>
+      <Link to='/settings' className='link'><div className='link-container'>Settings</div></Link>
     </div>
   </div>
 );
