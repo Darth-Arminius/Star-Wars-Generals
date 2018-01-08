@@ -8,13 +8,13 @@ This project is created entirely in React and is (will be) using React-Redux to 
 ## Installation instructions
 
 ```sh
-npm install
+yarn install
 ```
 
 ## Running the application
 
 ```sh
-npm start
+yarn start
 ```
 
 Details on how to play and the rules of the game will be added at a later date.
