@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.css';
 
 const AbilityBox = () => (
-  <div>
+  <div className='ability-box border'>
     Ability Box
   </div>
 );

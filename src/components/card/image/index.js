@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.css';
 
 const Image = () => (
-  <div>
+  <div className='image border'>
     Image
   </div>
 );

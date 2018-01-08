@@ -1,9 +1,10 @@
 import * as React from 'react';
+import FacedownCard from '../../facedown-card';
 import './index.css';
 
 const Deck = () => (
-  <div>
-    Deck
+  <div className='border deck'>
+    <FacedownCard/>
   </div>
 );
 

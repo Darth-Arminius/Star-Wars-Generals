@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.css';
 
 const Name = () => (
-  <div>
+  <div className='name border'>
     Name
   </div>
 );

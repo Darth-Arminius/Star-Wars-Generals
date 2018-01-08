@@ -1,0 +1,47 @@
+.border {
+  border: solid black;
+}
+
+.card {
+  margin: 8pt 8pt 8pt 8pt;
+  width: 96pt;
+}
+
+.card-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-flex-row-reversed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.row {
+  flex: 1 1 auto;
+}
+
+.ability-box {
+  flex: 1 1 auto;
+}
+
+.cost {
+  flex: 1 1 auto;
+}
+
+.defense {
+  flex: 1 1 auto;
+}
+
+.image {
+  flex: 1 1 auto;
+}
+
+.name {
+  flex: 1 1 auto;
+}
+
+.offense {
+  flex: 1 1 auto;
+}

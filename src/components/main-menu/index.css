@@ -1,0 +1,15 @@
+.links {
+  margin: 8pt 8pt 8pt 8pt;
+  border: 2px solid black;
+}
+
+.link-container {
+  margin: 24pt 0pt 24pt 0pt;
+}
+
+.link {
+  padding: 8pt 24pt 8pt 24pt;
+  color: white;
+  background: black;
+  text-decoration: none;
+}

@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.css';
 
 const Offense = () => (
-  <div>
+  <div className='offense border'>
     Offense
   </div>
 );

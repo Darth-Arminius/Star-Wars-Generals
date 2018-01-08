@@ -1,9 +1,10 @@
 import * as React from 'react';
+import Card from '../../card';
 import './index.css';
 
 const Grave = () => (
-  <div>
-    Grave
+  <div className='border deck'>
+    <Card/>
   </div>
 );
 

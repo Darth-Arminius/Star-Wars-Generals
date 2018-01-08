@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.css';
 
 const Defense = () => (
-  <div>
+  <div className='defense border'>
     Defense
   </div>
 );
