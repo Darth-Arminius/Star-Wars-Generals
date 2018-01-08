@@ -2,9 +2,9 @@ import * as React from 'react';
 import './index.css';
 
 const Health = () => (
-  <div className='border health-flex-row'>
-    <div>Player Health</div>
-    <div>Opponent Health</div>
+  <div className='health-flex-row'>
+    <div className='health border'>Player 1 - Health: 20</div>
+    <div className='health border'>Player 2 - Health: 20</div>
   </div>
 );
 

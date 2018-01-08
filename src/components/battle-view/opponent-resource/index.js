@@ -2,13 +2,13 @@ import * as React from 'react';
 import Card from '../../card';
 import './index.css';
 
-const Resource = () => (
+const OpponentResource = () => (
   <div className='border resource'>
-    <div className='card-flex-row'>
+    <div className='card-flex-row-reversed'>
       <Card/>
       <Card/>
     </div>
   </div>
 );
 
-export default Resource;
+export default OpponentResource;

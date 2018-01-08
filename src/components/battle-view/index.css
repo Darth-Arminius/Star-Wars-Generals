@@ -2,13 +2,29 @@
   border: solid black;
 }
 
+.board-opponent-side {
+  border-bottom: solid black;
+  margin-bottom: 64pt;
+}
+
+.board-player-side {
+  border-top: solid black;
+  margin-top: 64pt;
+}
+
 .battle-view-flex-row {
   display: flex;
   flex-direction: row;
 }
 
 .battlefield {
-  flex: 3 1 auto;
+  flex: 80 1 auto;
+}
+
+.health {
+  flex: 1 1 auto;
+  padding: 16pt 0pt 16pt 0pt;
+  font-size: 16pt;
 }
 
 .deck {
@@ -16,7 +32,7 @@
 }
 
 .resource {
-  flex: 3 1 auto;
+  flex: 80 1 auto;
 }
 
 .grave {

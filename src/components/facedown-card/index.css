@@ -1,0 +1,9 @@
+.border {
+  border: solid black;
+}
+
+.facedown-card {
+  margin: 8pt 8pt 8pt 8pt;
+  width: 94pt;
+  height: 72pt;
+}

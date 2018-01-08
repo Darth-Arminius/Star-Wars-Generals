@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.css';
 
 const Cost = () => (
-  <div>
+  <div className='cost border'>
     Cost
   </div>
 );

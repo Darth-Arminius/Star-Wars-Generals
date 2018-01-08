@@ -2,9 +2,9 @@ import * as React from 'react';
 import Card from '../../card';
 import './index.css';
 
-const Battlefield = () => (
+const OpponentBattlefield = () => (
   <div className='border battlefield'>
-    <div className='card-flex-row'>
+    <div className='card-flex-row-reversed'>
       <Card/>
       <Card/>
       <Card/>
@@ -13,4 +13,4 @@ const Battlefield = () => (
   </div>
 );
 
-export default Battlefield;
+export default OpponentBattlefield;
