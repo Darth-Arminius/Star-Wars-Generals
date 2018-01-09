@@ -12,14 +12,26 @@ export default class DeckEditor extends React.PureComponent {
           <Link to='/editor/create' className='link'><div className='link-container'>Create New Deck</div></Link>
         </div>
         <div className='deck-editor-flex-row'>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
-          <div className='deck'><img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/></div>
+          <Link to='/editor/edit' className='link'>
+            <div className='deck'>
+              <img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/>
+            </div>
+          </Link>
+          <Link to='/editor/edit' className='link'>
+            <div className='deck'>
+              <img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/>
+            </div>
+          </Link>
+          <Link to='/editor/edit' className='link'>
+            <div className='deck'>
+              <img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/>
+            </div>
+          </Link>
+          <Link to='/editor/edit' className='link'>
+            <div className='deck'>
+              <img src={Placeholder} className='deck-thumbnail' alt='deck-thumbnail'/>
+            </div>
+          </Link>
         </div>
       </div>
     )

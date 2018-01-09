@@ -8,4 +8,5 @@
   flex: 1 1 auto;
   border: solid black;
   margin: 16pt 16pt 16pt 16pt;
+  max-height: 300px;
 }
