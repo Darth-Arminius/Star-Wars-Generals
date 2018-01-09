@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/logo.png';
+import Logo from '../images/logo.png';
 import './index.css';
 
 const MainMenu = () => (
   <div>
-    <img src={logo} className='logo' alt='logo'/>
+    <img src={Logo} className='logo' alt='logo'/>
     <h1>STAR WARS: Generals</h1>
     <h3>A Star Wars card game</h3>
     <div className='links'>
