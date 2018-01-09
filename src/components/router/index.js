@@ -6,7 +6,7 @@ import CreateDeck from '../deck-editor/create-deck';
 import EditDeck from '../deck-editor/edit-deck';
 import MainMenu from '../main-menu';
 import TrainingView from '../training-view';
-import Settings from '../settings';
+import ProfileView from '../profile-view';
 
 const Router = () => (
   <Switch>
@@ -16,7 +16,7 @@ const Router = () => (
     <Route path='/editor/create' component={CreateDeck}/>
     <Route path='/editor/edit' component={EditDeck}/>
     <Route path='/training' component={TrainingView}/>
-    <Route path='/settings' component={Settings}/>
+    <Route path='/profile' component={ProfileView}/>
   </Switch>
 );
 

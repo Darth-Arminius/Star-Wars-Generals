@@ -12,7 +12,7 @@ const MainMenu = () => (
       <Link to='/battle' className='link'><div className='link-container'>Play</div></Link>
       <Link to='/training' className='link'><div className='link-container'>Training</div></Link>
       <Link to='/editor' className='link'><div className='link-container'>Deck Editor</div></Link>
-      <Link to='/settings' className='link'><div className='link-container'>Settings</div></Link>
+      <Link to='/profile' className='link'><div className='link-container'>Profile</div></Link>
     </div>
   </div>
 );
