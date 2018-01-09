@@ -7,11 +7,25 @@ This project is created entirely in React and is (will be) using React-Redux to 
 
 ## Installation instructions
 
+You will need either **yarn** and/or **npm** installed
+
+```sh
+npm install
+```
+
+or
+
 ```sh
 yarn install
 ```
 
 ## Running the application
+
+```sh
+npm start
+```
+
+or
 
 ```sh
 yarn start
@@ -20,10 +34,12 @@ yarn start
 Details on how to play and the rules of the game will be added at a later date.
 
 Development plans are to create:
-* Main menu with "Play", "Training", "Deck Editor" and "Settings"
+* **Main menu** with "Play", "Training", "Deck Editor" and "Profile"
 
-* Training mode which allows the player to battle the Computer using all the cards in the game or the player's personal custom decks (good for testing deck builds)
+* **Play** mode which allows the player to battle local and (in the future) online players
 
-* Play mode which allows the player to battle local and (in the future) online players
+* **Training** mode which allows the player to battle the Computer using all the cards in the game or the player's personal custom decks (good for testing deck builds)
 
-* Deck Editor which allows the player to view locked and unlocked cards as well as the player's custom decks and allows the creation of new decks 
+* **Deck Editor** which allows the player to view locked and unlocked cards as well as the player's custom decks and allows the creation of new decks
+
+* **Profile** page which allows the player to view their stats such as rank, wins/losses, total cards unlocked as well as make some settings/preference changes

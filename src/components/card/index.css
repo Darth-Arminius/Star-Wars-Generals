@@ -10,12 +10,14 @@
 .card-flex-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card-flex-row-reversed {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: wrap-reverse;
 }
 
 .row {

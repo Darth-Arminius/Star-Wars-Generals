@@ -1,0 +1,12 @@
+.deck-editor-flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.deck {
+  flex: 1 1 auto;
+  border: solid black;
+  margin: 16pt 16pt 16pt 16pt;
+  max-height: 300px;
+}
