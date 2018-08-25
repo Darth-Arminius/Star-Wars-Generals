@@ -1,13 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render((
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-), document.getElementById('root'));
+import App from "./App";
+import registerServiceWorker from "./registerServiceWorker";
+import createAppStore from "./createAppStore";
+
+const store = createAppStore();
+
+const render = Component => {
+  ReactDOM.render(<Component store={store} />, document.getElementById("root"));
+};
+
 registerServiceWorker();
+render(App);
+
+if (module.hot) {
+  module.hot.accept("./App", () => render(App));
+}
