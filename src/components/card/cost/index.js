@@ -1,10 +1,3 @@
-import * as React from 'react';
-import './index.css';
-
-const Cost = () => (
-  <div className='cost border'>
-    Cost
-  </div>
-);
+import Cost from "./Cost";
 
 export default Cost;
