@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
-import Placeholder from "../images/placeholder.png";
+import Placeholder from "@/assets/images/placeholder.png";
 
 import "./DeckEditor.css";
 
