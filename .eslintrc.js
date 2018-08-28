@@ -29,6 +29,13 @@ module.exports = {
     alert: true,
     fail: true
   },
+  settings: {
+    "import/resolver": {
+      webpack: {
+        config: "./config-overrides/webpack.config.js"
+      }
+    }
+  },
   overrides: [
     {
       files: ["*registerServiceWorker.js"],
@@ -44,6 +51,13 @@ module.exports = {
         "redux-saga/yield-effects": "error",
         "redux-saga/no-yield-in-race": "error",
         "redux-saga/no-unhandled-errors": "error"
+      }
+    },
+    {
+      files: ["config-overrides/**/*.js"],
+      rules: {
+        "import/no-extraneous-dependencies": "off",
+        "import/no-dynamic-require": "off"
       }
     }
   ]
