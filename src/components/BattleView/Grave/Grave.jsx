@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Card from "@/components/Card";
+import Card from "@/components/card";
 
 import "./Grave.css";
 
