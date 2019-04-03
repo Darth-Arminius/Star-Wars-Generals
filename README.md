@@ -16,6 +16,12 @@ npm install
 npm start
 ```
 
+## Building the application
+
+```sh
+npm build
+```
+
 Details on how to play and the rules of the game will be added at a later date.
 
 Development plans are to create:

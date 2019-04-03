@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["airbnb", "prettier"],
-  plugins: ["import", "flowtype", "jsx-a11y", "react", "redux-saga"],
+  plugins: ["import", "flowtype", "jsx-a11y", "react"],
   rules: {
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "jsx-a11y/anchor-is-valid": [
@@ -43,21 +43,6 @@ module.exports = {
         "no-console": "off",
         "no-param-reassign": "off",
         "no-use-before-define": "off"
-      }
-    },
-    {
-      files: ["**/*.{js,jsx}"],
-      rules: {
-        "redux-saga/yield-effects": "error",
-        "redux-saga/no-yield-in-race": "error",
-        "redux-saga/no-unhandled-errors": "error"
-      }
-    },
-    {
-      files: ["config-overrides/**/*.js"],
-      rules: {
-        "import/no-extraneous-dependencies": "off",
-        "import/no-dynamic-require": "off"
       }
     }
   ]
