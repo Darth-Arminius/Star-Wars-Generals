@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import FacedownCard from "@/components/FacedownCard";
+import FacedownCard from "../../FacedownCard";
 
 import "./Deck.css";
 

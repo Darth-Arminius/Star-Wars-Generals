@@ -2,8 +2,14 @@ import * as React from "react";
 
 import "./ProfileView.css";
 
-export default class ProfileView extends React.PureComponent {
+class ProfileView extends React.PureComponent {
   render() {
-    return <div>Profile View</div>;
+    return (
+      <div>
+        <h1>Profile View</h1>
+      </div>
+    );
   }
 }
+
+export default ProfileView;
