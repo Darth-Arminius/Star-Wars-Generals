@@ -3,47 +3,38 @@
 }
 
 .card {
-  margin: 8pt 8pt 8pt 8pt;
-  width: 96pt;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 11rem;
+  height: 15rem;
+  border: 0.5rem solid black;
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
 }
 
-.card-flex-row {
+.card-footer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  border-top: 3px solid black;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
-.card-flex-row-reversed {
+.card-footer > * {
+  flex: 1;
+}
+
+.card-header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  flex-wrap: wrap-reverse;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
-.row {
-  flex: 1 1 auto;
-}
-
-.ability-box {
-  flex: 1 1 auto;
-}
-
-.cost {
-  flex: 1 1 auto;
-}
-
-.defense {
-  flex: 1 1 auto;
-}
-
-.image {
-  flex: 1 1 auto;
-}
-
-.name {
-  flex: 1 1 auto;
-}
-
-.offense {
-  flex: 1 1 auto;
+.card-header > *:first-child {
+  flex: 1;
 }

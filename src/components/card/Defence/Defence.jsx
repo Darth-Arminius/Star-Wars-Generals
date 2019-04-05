@@ -2,6 +2,6 @@ import * as React from "react";
 
 import "./Defence.css";
 
-const Defense = () => <div className="defense border">Defense</div>;
+const Defense = () => <div className="defense">Defense</div>;
 
 export default Defense;

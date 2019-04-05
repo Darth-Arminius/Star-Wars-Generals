@@ -2,12 +2,12 @@ import * as React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import BattleView from "Components/BattleView";
-import DeckEditor from "Components/DeckEditor";
 import CreateDeck from "Components/DeckEditor/CreateDeck";
+import DeckEditor from "Components/DeckEditor";
 import EditDeck from "Components/DeckEditor/EditDeck";
 import MainMenu from "Components/MainMenu";
-import TrainingView from "Components/TrainingView";
 import ProfileView from "Components/ProfileView";
+import TrainingView from "Components/TrainingView";
 
 const Router = () => (
   <BrowserRouter>
