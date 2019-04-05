@@ -26,6 +26,10 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: [".js", ".json", ".jsx", ".png"]
+    extensions: [".js", ".json", ".jsx", ".png"],
+    alias: {
+      Components: path.resolve(__dirname, "src/components/"),
+      Assets: path.resolve(__dirname, "src/assets/")
+    }
   }
 };

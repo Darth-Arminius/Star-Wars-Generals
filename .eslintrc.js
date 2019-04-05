@@ -32,7 +32,7 @@ module.exports = {
   settings: {
     "import/resolver": {
       webpack: {
-        config: "./config-overrides/webpack.config.js"
+        config: "./webpack.config.js"
       }
     }
   },
