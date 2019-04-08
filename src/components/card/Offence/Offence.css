@@ -1,0 +1,4 @@
+.offence {
+  display: flex;
+  flex-direction: row;
+}

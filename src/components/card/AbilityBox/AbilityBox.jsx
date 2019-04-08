@@ -1,7 +1,14 @@
 import * as React from "react";
+import PropTypes from "prop-types";
 
 import "./AbilityBox.css";
 
-const AbilityBox = () => <div className="ability-box">Ability Box</div>;
+const AbilityBox = ({ ability }) => (
+  <div className="ability-box">{ability}</div>
+);
+
+AbilityBox.propTypes = {
+  ability: PropTypes.string.isRequired
+};
 
 export default AbilityBox;
