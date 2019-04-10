@@ -5,8 +5,8 @@ import "./Defence.css";
 
 const Defence = ({ defence: { light, heavy } }) => (
   <div className="defence">
-    <div className="defence-light">{`L: ${light}`}</div>
-    <div className="defence-heavy">{`H: ${heavy}`}</div>
+    <div className="defence-light">{`L ${light}`}</div>
+    <div className="defence-heavy">{`H ${heavy}`}</div>
   </div>
 );
 

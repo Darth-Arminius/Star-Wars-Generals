@@ -8,8 +8,8 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
-  width: 11rem;
-  height: 17rem;
+  width: 12rem;
+  height: 18rem;
   border: 0.5rem solid black;
   background-size: cover;
   color: white;
@@ -19,13 +19,10 @@
 .card-footer {
   display: flex;
   flex-direction: row;
-  border-top: 3px solid black;
+  justify-content: space-between;
+  border-top: 2px solid black;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
-}
-
-.card-footer > * {
-  flex: 1;
 }
 
 .card-header {

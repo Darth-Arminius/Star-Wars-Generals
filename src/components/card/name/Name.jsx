@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./Name.css";
 
-const Name = ({ name }) => <div className="name">{name}</div>;
+const Name = ({ name }) => <div className="card-name">{name}</div>;
 
 Name.propTypes = {
   name: PropTypes.string.isRequired

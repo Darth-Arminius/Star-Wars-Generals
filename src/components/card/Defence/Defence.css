@@ -1,4 +1,6 @@
 .defence {
   display: flex;
   flex-direction: row;
+  text-align: left;
+  padding-left: 0.3rem;
 }

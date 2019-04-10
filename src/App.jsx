@@ -7,9 +7,10 @@ import Card from "./components/Card/Card";
 
 const App = () => {
   const cardProp = {
-    ability: "This is some ability box text",
+    ability:
+      "Stormtroopers were the assault/policing troops of the Galactic Empire. Dissenting citizens sometimes referred to them as bucketheads, a derogatory nickname inspired by the bucket-shaped helmets of stormtroopers.",
     cardType: { designation: "Imperial Soldier", species: "Human" },
-    cost: { type: "Supply", amount: "1" },
+    cost: { type: "S", amount: "1" },
     defence: { light: "1", heavy: "1" },
     offence: { light: "1", heavy: "0" },
     name: "Stormtrooper",

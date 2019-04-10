@@ -43,8 +43,8 @@ export default class Card extends React.PureComponent {
         <CardType cardType={cardType} />
         <AbilityBox ability={ability} />
         <div className="card-footer">
-          <Offence offence={offence} />
           <Defence defence={defence} />
+          <Offence offence={offence} />
         </div>
       </div>
     );
