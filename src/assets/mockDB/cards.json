@@ -1,0 +1,20 @@
+[
+  {
+    "ability": "Stormtroopers were the assault/policing troops of the Galactic Empire. Dissenting citizens sometimes referred to them as bucketheads, a derogatory nickname inspired by the bucket-shaped helmets of stormtroopers.",
+    "cardType": { "designation": "Imperial Soldier", "species": "Human" },
+    "cost": { "type": "S", "amount": "1" },
+    "defence": { "light": "1", "heavy": "1" },
+    "offence": { "light": "1", "heavy": "0" },
+    "name": "Stormtrooper",
+    "imagePath": "https://ixxidesign.azureedge.net/media/1045221/03-Stormtrooper.jpg?width=562"
+  },
+  {
+    "ability": "Soldiers of the Rebel Alliance, this is our most desperate hour. You are our only hope. ―Gial Ackbar",
+    "cardType": { "designation": "Rebel Soldier", "species": "Human" },
+    "cost": { "type": "S", "amount": "1" },
+    "defence": { "light": "1", "heavy": "1" },
+    "offence": { "light": "1", "heavy": "0" },
+    "name": "Rebel trooper",
+    "imagePath": "https://pm1.narvii.com/6610/88116080984e7c1442e7f0a9ee20bf7d15be8331_hq.jpg"
+  }
+]
