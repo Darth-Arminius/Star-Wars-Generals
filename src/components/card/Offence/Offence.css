@@ -1,0 +1,6 @@
+.offence {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  padding-right: 0.3rem;
+}

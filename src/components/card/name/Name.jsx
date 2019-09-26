@@ -1,7 +1,12 @@
 import * as React from "react";
+import PropTypes from "prop-types";
 
 import "./Name.css";
 
-const Name = () => <div className="name border">Name</div>;
+const Name = ({ name }) => <div className="card-name">{name}</div>;
+
+Name.propTypes = {
+  name: PropTypes.string.isRequired
+};
 
 export default Name;

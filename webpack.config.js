@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: ["react-hot-loader/patch", "./src/index.js"],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index_bundle.js"
@@ -26,6 +26,10 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: [".js", ".json", ".jsx", ".png"]
+    extensions: [".js", ".json", ".jsx", ".png"],
+    alias: {
+      Components: path.resolve(__dirname, "src/components/"),
+      Assets: path.resolve(__dirname, "src/assets/")
+    }
   }
 };

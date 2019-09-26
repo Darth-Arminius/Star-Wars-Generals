@@ -1,13 +1,13 @@
 import * as React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import BattleView from "../BattleView";
-import DeckEditor from "../DeckEditor";
-import CreateDeck from "../DeckEditor/CreateDeck";
-import EditDeck from "../DeckEditor/EditDeck";
-import MainMenu from "../MainMenu";
-import TrainingView from "../TrainingView";
-import ProfileView from "../ProfileView";
+import BattleView from "Components/BattleView";
+import CreateDeck from "Components/DeckEditor/CreateDeck";
+import DeckEditor from "Components/DeckEditor";
+import EditDeck from "Components/DeckEditor/EditDeck";
+import MainMenu from "Components/MainMenu";
+import ProfileView from "Components/ProfileView";
+import TrainingView from "Components/TrainingView";
 
 const Router = () => (
   <BrowserRouter>
